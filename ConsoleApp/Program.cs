@@ -20,9 +20,9 @@
     {
         var sum = 0;
         var size = arr.Length;
-        foreach (var number in arr)
+        foreach (var n in arr)
         {
-            sum += number;
+            sum += n;
         }
 
         return sum / size;
